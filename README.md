@@ -38,7 +38,7 @@ training-optimization-playground/
 
 ## 🛠️ Usage
 
-### Optimizer Comparison
+## Optimizer Comparison
 
 Run the **optimizer comparison** experiment to see how `SGD`, `Adam`, and `RMSprop` perform with your dataset.
 
@@ -53,7 +53,14 @@ The **console output** will be saved to the `resources/` directory.
 
 ---
 
-### Learning Rate Finder
+## 📈 Results and Visualization
+
+- **Optimizer Comparison**: We experiment with different optimizers and visualize their performance. Check out the plots in the `resources/` folder:
+- ![Optimizer Comparison Metrics](optimizer_comparison/resources/metrics.png)
+
+---
+
+## Learning Rate Finder
 
 Run the **learning rate finder** to determine the optimal learning rate for your model.
 
@@ -65,23 +72,17 @@ python main.py
 The **learning rate plot** and **console output** will be saved to the `resources/` directory.
 
 ![Learning Rate Plot](find_optimal_lr/resources/learning_rate.png)
-![Learning Rate Plot](find_optimal_lr/resources/metrics_comparison.png)
-
+![Learning Rate Plot](find_optimal_lr/resources/console_output.png)
 
 
 ---
 
-## 📈 Results and Visualization
-
-- **Optimizer Comparison**: We experiment with different optimizers and visualize their performance. Check out the plots in the `resources/` folder:
-- ![Optimizer Comparison Metrics](optimizer_comparison/resources/metrics.png)
+### 📈 Results and Visualization
 
 - **Learning Rate Finder**: Visualize the learning rates vs. loss and learning rates vs. accuaracy graph:
 - ![Larning Rate Finder Metrics](find_optimal_lr/resources/metrics_comparison.png)
 
 ---
-
-The accuracy and loss plots give a visual summary of model performance across epochs, indicating improvements and stability.
 
 ## Contributing
 Contributions are welcome! 🎉 Whether you're reporting a bug, suggesting a new feature, or submitting a pull request, your input is valuable.
