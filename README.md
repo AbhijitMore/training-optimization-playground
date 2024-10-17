@@ -1,16 +1,18 @@
 # 🧑‍💻 Training Optimization Playground 🎯
 
-Welcome to **Training Optimization Playground**! This repository is a fun and interactive space where we explore various **training optimizations** for neural networks. Whether you’re curious about how different optimizers perform or how to find the optimal learning rate for your models, this playground has something for you!
+Welcome to **Training Optimization Playground**! This repository is an interactive space where we explore various **training optimizations** for neural networks. Whether you’re curious about how different optimizers perform or how to find the optimal learning rate for your models, this playground has something for you!
+
+---
 
 ## 🚀 Project Overview
-In this repository, we cover:
-- 📊 **Optimizer Comparison**: Compare different optimizers like `SGD`, `Adam`, and `RMSprop`.
-- 🔍 **Learning Rate Finder**: Automatically find the best learning rate to speed up training without sacrificing accuracy.
-- Detailed performance metrics are plotted for easy comparison of experiments.
 
-This repository is divided into two parts:
-1. **Optimizer Comparison** (`optimizer_comparison/`): Experimenting with multiple optimizers and analyzing their performance.
-2. **Learning Rate Finder** (`find_optimal_lr/`): Finding the optimal learning rate for better training.
+In this repository, we cover:
+- 📊 **Optimizer Comparison**: Compare popular optimizers like `SGD`, `Adam`, and `RMSprop`.
+- 🔍 **Learning Rate Finder**: Automatically find the best learning rate to speed up training without sacrificing accuracy.
+  
+The repository is organized into two parts:
+1. **Optimizer Comparison** (`optimizer_comparison/`): Experiment with multiple optimizers and analyze their performance.
+2. **Learning Rate Finder** (`find_optimal_lr/`): Identify the optimal learning rate for better training outcomes.
 
 ---
 
@@ -19,70 +21,74 @@ This repository is divided into two parts:
 ```
 training-optimization-playground/
 ├── optimizer_comparison/
-│   ├── resources/
-│   │   ├── console_output.png  # Sample console output from optimizer comparison
-│   │   ├── metrics.png         # Metrics comparison between different learning rates
-│   ├── utils.py                # Utility functions for loading data, plotting metrics
-│   ├── nets.py                 # Simple neural network model definitions
-│   ├── main.py                 # Main script to run optimizer comparison experiments
+│   ├── resources/               # Contains all output files from optimizer experiments
+│   │   ├── console_output.png    # Example console output from optimizer comparison
+│   │   ├── metrics.png           # Comparison metrics for different optimizers
+│   ├── utils.py                  # Helper functions (data loading, plotting)
+│   ├── nets.py                   # Neural network models
+│   ├── main.py                   # Script to run optimizer comparison experiments
 ├── find_optimal_lr/
-│   ├── resources/
-│   │   ├── learning_rate.png    # LR Finder graph
-│   │   ├── console_output.png   # Sample console output from LR finding process
-│   │   ├── metrics_comparison.png # Metrics comparison after applying optimal learning rate
-│   ├── find_lr.py               # Script for finding optimal learning rate
-│   ├── main.py                  # Main script to demonstrate training with optimal LR
+│   ├── resources/                # Contains all output files from LR finder experiments
+│   │   ├── learning_rate.png     # Learning rate vs loss/accuracy graph
+│   │   ├── console_output.png    # Example console output from LR finding process
+│   │   ├── metrics_comparison.png # Metrics comparison before/after optimal LR application
+│   ├── find_lr.py                # Script to find optimal learning rate
+│   ├── main.py                   # Script to demonstrate training with optimal LR
 ```
 
 ---
 
 ## 🛠️ Usage
 
-## Optimizer Comparison
+### Optimizer Comparison
 
-Run the **optimizer comparison** experiment to see how `SGD`, `Adam`, and `RMSprop` perform with your dataset.
+Run the optimizer comparison to see how `SGD`, `Adam`, and `RMSprop` perform on your dataset:
 
 ```bash
 cd optimizer_comparison/
 python main.py
 ```
 
-The **console output** will be saved to the `resources/` directory.
+The **console output** and **metrics** are automatically saved in the `resources/` folder.
 
+#### Example Console Output:
 ![Optimizer Console Output](optimizer_comparison/resources/console_output.png)
 
----
-
-## 📈 Results and Visualization
-
-- **Optimizer Comparison**: We experiment with different optimizers and visualize their performance. Check out the plots in the `resources/` folder:
-- ![Optimizer Comparison Metrics](optimizer_comparison/resources/metrics.png)
+#### Metrics Comparison:
+![Optimizer Metrics Comparison](optimizer_comparison/resources/metrics.png)
 
 ---
 
-## Learning Rate Finder
+### Learning Rate Finder
 
-Run the **learning rate finder** to determine the optimal learning rate for your model.
+Use the learning rate finder to determine the best learning rate for your model:
 
 ```bash
 cd find_optimal_lr/
 python main.py
 ```
 
-The **learning rate plot** and **console output** will be saved to the `resources/` directory.
+The **learning rate plot** and **console output** will be saved to the `resources/` folder.
 
+##### Learning Rate Plot:
 ![Learning Rate Plot](find_optimal_lr/resources/learning_rate.png)
-![Learning Rate Plot](find_optimal_lr/resources/console_output.png)
 
+##### Example Console Output:
+![Learning Rate Console Output](find_optimal_lr/resources/console_output.png)
+
+##### Metrics Comparison After Applying Optimal Learning Rate:
+![Learning Rate Metrics Comparison](find_optimal_lr/resources/metrics_comparison.png)
 
 ---
 
-### 📈 Results and Visualization
+## 📊 Results and Visualization
 
-- **Learning Rate Finder**: Visualize the learning rates vs. loss and learning rates vs. accuaracy graph:
-- ![Larning Rate Finder Metrics](find_optimal_lr/resources/metrics_comparison.png)
+- **Optimizer Comparison**: Visualize how different optimizers perform across multiple metrics, such as accuracy and loss, with graphs saved in the `resources/` folder.
+- **Learning Rate Finder**: View the learning rate vs loss/accuracy plot to identify the best learning rate and compare metrics before and after applying it.
 
 ---
 
 ## Contributing
-Contributions are welcome! 🎉 Whether you're reporting a bug, suggesting a new feature, or submitting a pull request, your input is valuable.
+
+We welcome contributions! 🎉 Whether you're reporting bugs, suggesting new features, or submitting pull requests, your input is invaluable.
+"""
