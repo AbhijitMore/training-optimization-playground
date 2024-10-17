@@ -47,9 +47,9 @@ cd optimizer_comparison/
 python main.py
 ```
 
-The **console output** and **metrics plots** will be saved to the `resources/` directory.
+The **console output** will be saved to the `resources/` directory.
 
-![Optimizer Comparison Metrics](optimizer_comparison/resources/metrics.png)
+![Optimizer Console Output](optimizer_comparison/resources/console_output.png)
 
 ---
 
@@ -62,19 +62,22 @@ cd find_optimal_lr/
 python main.py
 ```
 
-The **learning rate plot** and **metrics comparison** will be saved to the `resources/` directory.
+The **learning rate plot** and **console output** will be saved to the `resources/` directory.
 
-![Learning Rate Finder](find_optimal_lr/resources/learning_rate.png)
+![Learning Rate Plot](find_optimal_lr/resources/learning_rate.png)
+![Learning Rate Plot](find_optimal_lr/resources/metrics_comparison.png)
+
+
 
 ---
 
 ## 📈 Results and Visualization
 
 - **Optimizer Comparison**: We experiment with different optimizers and visualize their performance. Check out the plots in the `resources/` folder:
-  ![Metrics](optimizer_comparison/resources/metrics.png)
+- ![Optimizer Comparison Metrics](optimizer_comparison/resources/metrics.png)
 
-- **Learning Rate Finder**: Visualize the learning rate vs. loss graph to pinpoint the best learning rate:
-  ![Learning Rate Plot](find_optimal_lr/resources/learning_rate.png)
+- **Learning Rate Finder**: Visualize the learning rates vs. loss and learning rates vs. accuaracy graph:
+- ![Larning Rate Finder Metrics](find_optimal_lr/resources/metrics_comparison.png)
 
 ---
 
