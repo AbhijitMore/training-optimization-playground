@@ -20,20 +20,22 @@ The repository is organized into two parts:
 
 ```
 training-optimization-playground/
-├── optimizer_comparison/
-│   ├── resources/               # Contains all output files from optimizer experiments
-│   │   ├── console_output.png    # Example console output from optimizer comparison
-│   │   ├── metrics.png           # Comparison metrics for different optimizers
-│   ├── utils.py                  # Helper functions (data loading, plotting)
-│   ├── nets.py                   # Neural network models
-│   ├── main.py                   # Script to run optimizer comparison experiments
-├── find_optimal_lr/
-│   ├── resources/                # Contains all output files from LR finder experiments
-│   │   ├── learning_rate.png     # Learning rate vs loss/accuracy graph
-│   │   ├── console_output.png    # Example console output from LR finding process
-│   │   ├── metrics_comparison.png # Metrics comparison before/after optimal LR application
-│   ├── find_lr.py                # Script to find optimal learning rate
-│   ├── main.py                   # Script to demonstrate training with optimal LR
+├── optimizer_comparison/                # Experiments comparing different optimizers
+│   ├── resources/                       # Contains all output files from optimizer experiments
+│   │   ├── console_output.png           # Example console output from optimizer comparison
+│   │   ├── metrics.png                  # Comparison metrics for different optimizers
+│   ├── utils.py                         # Helper functions (data loading, plotting)
+│   ├── nets.py                          # Neural network models
+│   ├── main.py                          # Script to run optimizer comparison experiments
+├── find_optimal_lr/                     # Experiments for finding optimal learning rate
+│   ├── resources/                       # Contains all output files from LR finder experiments
+│   │   ├── learning_rate.png            # Learning rate vs loss/accuracy graph
+│   │   ├── console_output.png           # Example console output from LR finding process
+│   │   └── metrics_comparison.png       # Metrics comparison before/after optimal LR application
+│   ├── find_lr.py                       # Script to find optimal learning rate
+│   ├── main.py                          # Script to demonstrate training with optimal LR
+├── MNIST                                # Directory containing MNIST dataset or related files
+└── README.md                            # Project documentation with overview, setup instructions, etc.
 ```
 
 ---
