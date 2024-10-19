@@ -92,4 +92,4 @@ The **learning rate plot** and **console output** will be saved to the `resource
 
 ## Contributing
 
-We welcome contributions! 🎉 Whether you're reporting bugs, suggesting new features, or submitting pull requests, your input is invaluable.
+I welcome contributions! 🎉 Whether you're reporting bugs, suggesting new features, or submitting pull requests, your input is invaluable.
