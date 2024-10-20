@@ -3,7 +3,7 @@ import os
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
 
-def load_data(batch_size=64):
+def load_data(batch_size=64, shuffle=True, num_workers=0, pin_memory=False):
     
     path = os.path.join('..')
     """Load MNIST dataset and apply transformations."""
@@ -26,8 +26,8 @@ def load_data(batch_size=64):
     train_set = datasets.MNIST(path, train=True, download=True, transform=transform)
     test_set = datasets.MNIST(path, train=False, download=True, transform=transform)
 
-    train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True)
-    test_loader =  DataLoader(train_set, batch_size=batch_size, shuffle=True)
+    train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True, num_workers=num_workers , pin_memory=pin_memory)
+    test_loader =  DataLoader(train_set, batch_size=batch_size, shuffle=True, num_workers=num_workers, pin_memory=pin_memory)
 
     return train_loader, test_loader
 

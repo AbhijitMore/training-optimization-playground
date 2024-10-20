@@ -1,2 +1,6 @@
 MNIST/
 optimizer_comparison/__pycache__/
+cifar-10-batches-py/
+cifar-10-python.tar.gz
+.DS_Store
+optimizer_comparison/.DS_Store
