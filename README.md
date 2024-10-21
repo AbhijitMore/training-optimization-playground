@@ -44,7 +44,7 @@ training-optimization-playground/
 
 ### Optimizer Comparison
 
-Run the optimizer comparison to see how `SGD`, `Adam`, and `RMSprop` perform on your dataset:
+Run the optimizer comparison to see how `SGD`, `Adam`, and `RMSprop` perform on given dataset:
 
 ```bash
 cd optimizer_comparison/
