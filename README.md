@@ -10,10 +10,10 @@ In this repository, we cover:
 - 📊 **Optimizer Comparison**: Compare popular optimizers like `SGD`, `Adam`, and `RMSprop`.
 - 🔍 **Learning Rate Finder**: Automatically find the best learning rate to speed up training without sacrificing accuracy.
   
-The repository is organized into two parts:
+The repository is organized into three parts:
 1. **Optimizer Comparison** (`optimizer_comparison/`): Experiment with multiple optimizers and analyze their performance.
 2. **Learning Rate Finder** (`find_optimal_lr/`): Identify the optimal learning rate for better training outcomes.
-
+3. **DataLoader Tricks** ("Dataloader_tricks"): Checks how pin memory and number of workers affect training speed
 ---
 
 ## 📂 Directory Structure
