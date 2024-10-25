@@ -13,7 +13,7 @@ In this repository, we cover:
 The repository is organized into three parts:
 1. **Optimizer Comparison** (`optimizer_comparison/`): Experiment with multiple optimizers and analyze their performance.
 2. **Learning Rate Finder** (`find_optimal_lr/`): Identify the optimal learning rate for better training outcomes.
-3. **DataLoader Tricks** (`Dataloader_tricks`): Checks how pin memory and number of workers affect training speed
+3. **DataLoader Tricks** (`Dataloader_tricks/`): Checks how pin memory and number of workers affect training speed
 ---
 
 ## 📂 Directory Structure
