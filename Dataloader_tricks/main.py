@@ -5,7 +5,7 @@ import random
 import numpy as np
 import torch
 import torch.nn.functional as F
-from torch.optim import SGD
+from torch.optim import SGD # type: ignore
 import matplotlib.pyplot as plt
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
